@@ -5,7 +5,6 @@ import { addTask, removeTask, loadTasks } from "./redux/taskSlice";
 import { login, logout } from "./redux/authSlice";
 import authReducer from "./redux/authSlice";
 import taskReducer from './redux/taskSlice'
-import { Provider } from "react-redux";
 import "./App.css";
 
 function TodoApp() {
